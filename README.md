@@ -9,7 +9,7 @@ Two predictors (based on random forests and feed forward neural networks) have b
 The predictions of the various algorithms are stored in the variable *predictions* and the accuracy of each model is with respect to those data points which do not have a *NA* for the outcome feature.
 
 ### Adding algorithms
-To extend the code to include more methods of performing classification, create a file with an appropriate name and import it file in `demo.R`. Add an entry in variable *functions* of the form *c(<string describing the algorithm>, <function handle>)* and it will be used for classification.
+To extend the code to include more methods of performing classification, create a file with an appropriate name and import it file in `demo.R`. Add an entry in variable *functions* of the form *c(\<string describing the algorithm\>, \<function handle\>)* and it will be used for classification.
 
 ### Install random forest library
 The random forest module can be installed by calling `install.packages("randomForest")` within R.
